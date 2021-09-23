@@ -58,15 +58,16 @@ form h1 {
   margin-left: -270px;
 }
 
-input {
+/* input {
   margin-bottom: 1em;
-}
+} */
 
 .form-dados, .form-entrar {
   align-items: center;;
   border-radius: 10px;
   border: none;
   height: 50px;
+  margin-bottom: 1em;
   padding-left: 10px;
   width: 382px;
 }
@@ -87,7 +88,7 @@ input {
   font-weight: 700;
 }
 
-.usuario {
+.infos-usuario {
   align-items: center;
   display: flex;
   flex-wrap: wrap;
@@ -101,7 +102,10 @@ input {
 }
 
 .precisa-ajuda {
+<<<<<<< HEAD
   margin-bottom: 15px;
+=======
+>>>>>>> b32ce26 (Issue #1 Time 00:15)
   margin-left: 65px;
 }
 
@@ -121,6 +125,34 @@ input {
   color: #0047FF;
 }
 
+<<<<<<< HEAD
+=======
+.checkbox {
+  align-items: center;
+  display: flex;
+  height: 15px;
+  justify-content: center;
+  margin-left: 1.5px;
+  width: 15px;
+}
+
+.lembrar {
+  margin-left: 3px;
+}
+
+.centralizar-icon {
+  align-items: center;
+  display: flex;
+  justify-content:center;
+  /* padding: 5px; */
+}
+
+.centralizar-icon {
+  align-items: center;
+  display: flex;
+}
+
+>>>>>>> b32ce26 (Issue #1 Time 00:15)
 .icon-facebook {
   width: 20px;
   height: 20px;
