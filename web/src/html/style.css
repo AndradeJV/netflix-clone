@@ -96,13 +96,8 @@ input {
   padding: 10px;
 }
 
-.usuario p {
-  margin-top: 14px;
-}
-
 .precisa-ajuda {
-  margin-bottom: 15px;
-  margin-left: 65px;
+  justify-content: flex-end;
 }
 
 .cor-text-form {
@@ -119,6 +114,17 @@ input {
 
 .form-saiba-mais {
   color: #0047FF;
+}
+
+.centralizar-icon {
+  align-items: center;
+  display: flex;
+  padding: 5px;
+}
+
+.centralizar-icon .span-centraliza {
+  align-items: center;
+  display: flex;
 }
 
 .icon-facebook {
