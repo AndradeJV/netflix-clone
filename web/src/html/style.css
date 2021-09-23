@@ -102,10 +102,6 @@ form h1 {
 }
 
 .precisa-ajuda {
-<<<<<<< HEAD
-  margin-bottom: 15px;
-=======
->>>>>>> b32ce26 (Issue #1 Time 00:15)
   margin-left: 65px;
 }
 
@@ -125,8 +121,6 @@ form h1 {
   color: #0047FF;
 }
 
-<<<<<<< HEAD
-=======
 .checkbox {
   align-items: center;
   display: flex;
@@ -152,7 +146,6 @@ form h1 {
   display: flex;
 }
 
->>>>>>> b32ce26 (Issue #1 Time 00:15)
 .icon-facebook {
   width: 20px;
   height: 20px;
