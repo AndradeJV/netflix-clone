@@ -58,15 +58,16 @@ form h1 {
   margin-left: -270px;
 }
 
-input {
+/* input {
   margin-bottom: 1em;
-}
+} */
 
 .form-dados, .form-entrar {
   align-items: center;;
   border-radius: 10px;
   border: none;
   height: 50px;
+  margin-bottom: 1em;
   padding-left: 10px;
   width: 382px;
 }
@@ -87,7 +88,7 @@ input {
   font-weight: 700;
 }
 
-.usuario {
+.infos-usuario {
   align-items: center;
   display: flex;
   flex-wrap: wrap;
@@ -97,7 +98,7 @@ input {
 }
 
 .precisa-ajuda {
-  justify-content: flex-end;
+  margin-left: 65px;
 }
 
 .cor-text-form {
@@ -116,13 +117,27 @@ input {
   color: #0047FF;
 }
 
+.checkbox {
+  align-items: center;
+  display: flex;
+  height: 15px;
+  justify-content: center;
+  margin-left: 1.5px;
+  width: 15px;
+}
+
+.lembrar {
+  margin-left: 3px;
+}
+
 .centralizar-icon {
   align-items: center;
   display: flex;
-  padding: 5px;
+  justify-content:center;
+  /* padding: 5px; */
 }
 
-.centralizar-icon .span-centraliza {
+.centralizar-icon {
   align-items: center;
   display: flex;
 }
