@@ -73,7 +73,7 @@ input {
 
 .form-dados {
   align-items: center;
-  background: rgba(254, 253, 253, 0.21);
+  background: rgba(129, 129, 129, 0.21);
   border-radius: 10px;
   border: none;
   height: 50px;
@@ -83,16 +83,49 @@ input {
 .form-entrar {
   background-color: #E50914;
   cursor: pointer;
+  font-size: 18px;
+  font-weight: 700;
 }
 
 .usuario {
+  align-items: center;
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  height: 20vh;
+  padding: 10px;
 }
 
-label {
-  display: flex;
+.usuario p {
+  margin-top: 14px;
+}
+
+.precisa-ajuda {
+  margin-bottom: 15px;
+  margin-left: 65px;
+}
+
+.cor-text-form {
   color: #7E7E7A;
-  align-items: center;
-  justify-content: flex-end;
+}
+
+.form-link {
+  text-decoration: none;
+}
+
+.form-link:hover {
+  text-decoration: underline;
+}
+
+.form-saiba-mais {
+  color: #0047FF;
+}
+
+.icon-facebook {
+  width: 20px;
+  height: 20px;
+}
+
+.captcha {
+  font-size: 14px;
 }
